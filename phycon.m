@@ -24,7 +24,7 @@ classdef phycon
     % 
     %         Revision History:
     %             2014-08-25  Initial version.
-    %             2014-08-25  Added nAir,cAir, & machSpeed.
+    %             2019-09-15  Added nAir,cAir, & machSpeed.
     
     properties (Constant)
         
