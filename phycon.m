@@ -57,6 +57,9 @@ classdef phycon
         a = 6.378137e6;                                 % m
         b = 6.3567523142e6;                             % m
         f = 1/298.257223563;                            % unitless
+        nAir = 1.000293;                                % unitless
+        cAir = phycon.c/phycon.nAir;                    % m s^-1
+        machSpeed = 20.05*sqrt(phycon.Tko)              % m s^-1
         
     end % properties
    
